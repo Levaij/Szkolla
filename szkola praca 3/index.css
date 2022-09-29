@@ -1,0 +1,50 @@
+p { 
+    border-style: solid;
+    border-color: rgb(65, 65, 65);
+    background-color: rgb(165, 165, 165);
+    padding-left: 3px;
+}
+
+body { 
+
+    background-color: gray;
+}
+
+h1 {
+
+    border-style: solid;
+    border-color: rgb(65, 65, 65);
+    background-color: rgb(165, 165, 165);
+    padding-left: 3px;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    font-size: 20px;
+
+}
+
+h2 {
+
+    border-style: solid;
+    border-color: rgb(65, 65, 65);
+    background-color: rgb(165, 165, 165);
+    padding-left: 3cm;
+    padding-right: 3cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    font-size: 20px;
+
+
+}
+
+h3 {
+
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(165, 165, 165);
+    font-size: 20px;
+    padding-left: 3px;
+    margin-left: 2cm;
+    margin-right: 5cm;
+    padding-bottom: 3cm;
+
+}
