@@ -52,3 +52,18 @@ selektor (border-left-width: szerokość:)
 Atrybut border-right-width definiuje szerokość prawej krawędzi.
 
 selektor (border-right-width: szerokość:)
+
+============================================
+
+Wartości, które mogą być przypisywane do stylów obramowania, to:
+
+none - brak obramowania,
+hidden-obramowanie ukryte,
+dotted- linia kropkowana,
+dashed linia kreskowana,
+solid-linia ciągła,
+double- linia ciągła podwójna,
+groove-,,rowek",
+ridge-,,grzbiet",
+inset-,,ramka",
+outset - -"przycisk".
