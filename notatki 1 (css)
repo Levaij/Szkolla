@@ -57,13 +57,16 @@ selektor (border-right-width: szerokość:)
 
 Wartości, które mogą być przypisywane do stylów obramowania, to:
 
-none - brak obramowania,
-hidden-obramowanie ukryte,
-dotted- linia kropkowana,
-dashed linia kreskowana,
-solid-linia ciągła,
-double- linia ciągła podwójna,
-groove-,,rowek",
-ridge-,,grzbiet",
-inset-,,ramka",
-outset - -"przycisk".
+border-style: none; brak obramowania,
+border-style: hidden; obramowanie ukryte,
+border-style: dotted; linia kropkowana,
+border-style: dashed; linia kreskowana,
+border-style: solid; ciągła,
+border-style: double; linia ciągła podwójna,
+border-style: groove; rowek,
+border-style: ridge; grzbiet,
+border-style: inset; ramka,
+border-style: outset; przycisk.
+
+
+
