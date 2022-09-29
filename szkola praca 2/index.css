@@ -1,0 +1,43 @@
+p {
+
+    margin: 26px;
+    border-width: 4px;
+    border-style: dotted;
+    border-color: green;
+    padding: 20px;
+
+}
+
+h2 {
+
+    border-left: 10px;
+    border-style: solid;
+    border-color: blue;
+    padding-left: 10px;
+    margin-left: 20px;
+
+}
+
+H1 { 
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+body {
+
+    background-color: #f2f2f2;
+
+}
+
+div {
+
+    margin: 26px;
+    border-width: 4px;
+    border-style: dotted;
+    border-color: green;
+    padding: 20px;
+
+}
