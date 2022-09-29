@@ -1,0 +1,9 @@
+Wszystkie elementy projektowe w języku HTML można traktować jak
+prostokątne bloki odpowiednio sformatowane i rozmiesczone 
+na stronie internetowej. Kazdy z takich bloków ma marginesy,
+obramowanie, wypełnienie i zawartość.
+
+1.Margin - margines wokół ramki(zewnetrzny) 
+2.border - obramowanie wokół elementu, ma styl i kolor 
+3.padding - odstęp między obramowaniem a zawartośćią elementu(margines wewnętrzny) 
+4.content - zawartość elementu np. text czy obrazy
