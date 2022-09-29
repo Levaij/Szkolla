@@ -36,7 +36,7 @@ div {
 
     margin: 26px;
     border-width: 4px;
-    border-style: dotted;
+    border-style: outset;
     border-color: green;
     padding: 20px;
 
