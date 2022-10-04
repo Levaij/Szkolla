@@ -1,0 +1,44 @@
+        
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        section{
+            overflow: hidden;
+        }
+        #naglowek{
+            width: 100%;
+            background-color: #FCF;
+        }
+        
+        #ramka{
+            width: 1000px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        #stopka{
+            width: 100%;
+            background-color: #93f;
+            clear: both;
+            text-align: center;
+        }
+        .kolumny{
+            width: 30%;
+            margin-top: 10px;
+            margin-right: 2%;
+            margin-bottom: 2%;
+            margin-left: 10px;
+        }
+        #kol1{
+            float: left;
+            background-color: #3ff;
+        }
+        #kol2{
+            float: left;
+            background-color: #CF3;
+        }
+        #kol3{
+            float: left;
+            background-color: #F93;
+        }
