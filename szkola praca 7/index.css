@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+section { 
+    overflow: hidden;
+    padding: 25px;
+
+}
+
+#ramka {
+    width: 999px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#naglowek {
+    width: 100%;
+    background-color: #fcf;
+    font-size: 12pr;
+    color: #5e1138;
+    font-family: Arial;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+
+#stopka {
+    width: 100%;
+    background-color: #c0c0c0;
+    color: blue;
+    font-family: Arial;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    clear: both;
+
+}
+
+.kolumny {
+
+    margin-top: 10px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left: 10px;
+}
+
+.art {
+    background-color: #9ca0c9;
+    padding: 5px;
+    margin: 4px;
+}
+
+#kol1 {
+    float: left;
+    width: 180px;
+}
+
+#kol2 {
+    float: left;
+    width: 490px;
+
+}
+
+#kol3 {
+    width: 100px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33415d;
+}
+
+li {
+    float: left;
+
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #0d6ba1;
+}
