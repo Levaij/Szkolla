@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(116, 196, 116)
+}
+
+#prawo1 {
+    width: 150px;
+}
+
+.tb1 {
+    margin: 1cm;
+}
+table{
+    
+    border: 2px dashed green;
+    padding: 5px;
+}
+
+td{
+    border: 2px dashed green;
+    padding: 5px;
+}
+
+th {
+    border: 2px dashed green;
+    padding: 5px;
+}
+
+.left {
+    text-align: left;
+    font-family: Arial;
+}
+header {
+    background-color: rgb(88, 26, 26);
+    height: 2cm;
+    font-family: arial;
+    text-align: center;
+    color: white;
+    padding-top: 0cm;
+    letter-spacing: 20px;
+    clear: both;
+    
+}
+
+div.footer {
+    background-color: rgb(88, 26, 26);
+    font-size: 30px;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    clear: both;
+
+}
+
+#stopka {
+
+    float: bottom;
+}
+
+#bot2 {
+    position: relative;
+}
+
+#bot {
+    position: absolute;
+    bottom: 0;
+}
+
+.right{
+    float: right;
+    margin-right:500px;
+}
+
+img{
+    width: 170px;
+}
+.goralewo img{
+    filter: grayscale(100%);
+}
+
+.goralewo{
+    z-index:1;
+    position: relative;
+    display: block;
+    float: left;
+    margin-left:120px;
+}
+.goraprawo{
+    display: block;
+    float: right;
+    margin-right: 120px;
+}
+#zamow{
+    position: absolute;
+    z-index: 11;
+}
