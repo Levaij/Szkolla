@@ -1,0 +1,63 @@
+*{
+    font-family: Georgia;
+    margin: 0  ;
+}
+
+header {
+    color: orange;
+    background-color: #63AC74;
+    height: 140px;
+    width: 50%;
+    text-align: right;
+    font-size: 160%;
+    float: left;
+
+}
+
+section.logo {
+    
+    color: orange;
+    background-color: #63AC74;
+    height: 140px;
+    width: 50%;
+    text-align: right;
+    font-size: 160%;
+    float: left;
+
+
+}
+
+section.glowny {
+    background-color: #E3F6E7;
+    height: 500px;
+    padding: 20px;
+}
+
+footer div {
+background-color: #63AC74;
+height: 150px;
+}
+
+div {
+    width: 25%;
+    float: left;
+}
+
+a {
+    color: orange;
+    margin: 15px;
+}
+
+table {
+    width: 100%;
+    border: 2px solid green;
+}
+
+th {
+    background-color: #63AC74;
+    color: white;
+}
+
+#cena {
+    float: right;
+}
