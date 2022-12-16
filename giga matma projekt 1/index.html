@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gigaprojekt</title>
-    <script defer src="script.js"></script>
-</head>
-<body>
-    <button type="button" onclick="kwadratowa()">Funkcja</button>
-    <h2 id="kwadratowa"></h2>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gigaprojekt</title>
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <header class="top">
+
+            <div>
+
+                <h1 class="left">Kalkulator 2PP koksy</h1>
+
+            </div>
+
+        </header>
+
+        <section class="mid">
+
+            <button class="mat" type="button" onclick="kwadratowa()">Obliczanie miejsc zerowych z f(x)=ax² + bx + c</button>
+            <h2 id="kwadratowa"></h2>
+
+            <button class="mat"type="button" onclick="podstawa()">Podstawowe Obliczenia</button>
+            <h2 id="podstawa"></h2>
+
+            <button class="mat" type="button" onclick="Lokata()">Kalkulator Lokaty</button>
+            <h2 id="Lokata"></h2>
+
+            <button class="mat" type="button" onclick="Paliwo()">Kalkulator Ceny Paliwa</button>
+            <h2 id="Paliwo"></h2>
+
+        </section>
+
+        <footer class="bottom">
+
+            <div>
+
+                <a class="git1" href="https://github.com/Levaij">Github Lawasz</a> 
+
+                <a class="git2" href="https://github.com/Azfiel">Github Azfiel</a>
+                
+                <h1 class="left" >Autorzy: Lawasz, Azfiel, Karmelekk</h1>
+
+            </div>
+        
+        </footer>
+    </body>
 </html>

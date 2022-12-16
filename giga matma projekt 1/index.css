@@ -1,0 +1,123 @@
+*{
+
+    margin: 0;
+
+}
+
+body{
+
+    background-color: lightgrey;
+
+}
+
+button.mat { 
+
+    margin-left: 6px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color:#04AA6D!important;
+    border-radius:5px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding:6px 18px;
+
+}
+
+button.mat:hover{
+    background-color: #00915c!important;;
+}
+
+footer, header{
+    
+    background-color: gray;
+    width: 100vw;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    font-family: Arial;
+
+}
+
+header{
+    margin-bottom: 10px;
+}
+
+footer h1.left{
+
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    text-align: right;
+
+}
+
+header h1.left{
+
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.mid{
+    height: max-content;
+    background-color: lightgrey;
+    width: 100vw;
+}
+
+.bottom{
+    
+    position: absolute; bottom: 0;
+
+}
+
+.top{
+    
+    position: relative; top: 0;
+
+}
+
+h2{
+
+    margin-left: 10px;
+
+}
+
+a.git1{
+    position: fixed;
+    margin-left: 6px;
+    background-color:#04AA6D!important;
+    border-radius:5px;
+    border: black solid 2px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding:6px 18px;
+    text-decoration: none;
+    color: black;
+}
+
+a.git2{
+    position: fixed;
+    margin-left: 156px;
+    background-color:#04AA6D!important;
+    border-radius:5px;
+    border: black solid 2px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding:6px 18px;
+    text-decoration: none;
+    color: black;
+}
+
+a.git1:hover{
+    background-color: #00915c!important;;
+}
+
+a.git2:hover{
+    background-color: #00915c!important;;
+}
+
+
+
+
+
