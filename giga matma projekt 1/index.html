@@ -7,6 +7,7 @@
         <title>Gigaprojekt</title>
         <script defer src="script.js"></script>
         <link rel="stylesheet" href="index.css">
+        
     </head>
     <body>
 
@@ -20,34 +21,46 @@
 
         </header>
 
-        <section class="mid">
+        <div id="centr">
 
-            <button class="mat" type="button" onclick="kwadratowa()">Obliczanie miejsc zerowych z f(x)=ax² + bx + c</button>
-            <h2 id="kwadratowa"></h2>
+            <section class="mid">
 
-            <button class="mat"type="button" onclick="podstawa()">Podstawowe Obliczenia</button>
-            <h2 id="podstawa"></h2>
+                <button class="mat" type="button" onclick="kwadratowa()">Obliczanie miejsc zerowych z f(x)=ax² + bx + c</button>
+                <h2 id="kwadratowa"></h2>
 
-            <button class="mat" type="button" onclick="Lokata()">Kalkulator Lokaty</button>
-            <h2 id="Lokata"></h2>
+                <div>
 
-            <button class="mat" type="button" onclick="Paliwo()">Kalkulator Ceny Paliwa</button>
-            <h2 id="Paliwo"></h2>
+                    <canvas id = 'myCanvas' width ="500" height="500" style="display: none"></canvas>
 
-        </section>
+                </div>
 
+            </section>
+
+        </div>
+        
+
+
+       
         <footer class="bottom">
 
-            <div>
+            <div id="autorzy">
 
-                <a class="git1" href="https://github.com/Levaij">Github Lawasz</a> 
+                    <!--<a class="git1" href="https://github.com/Levaij" target="_blank">Github Lawasz</a> 
 
-                <a class="git2" href="https://github.com/Azfiel">Github Azfiel</a>
-                
-                <h1 class="left" >Autorzy: Lawasz, Azfiel, Karmelekk</h1>
+                <a class="git2" href="https://github.com/Azfiel" target="_blank">Github Azfiel</a>
+                    -->
+                <h1 class="left" >Autorzy: 
+                    <a class="git1" href="https://github.com/Levaij" target="_blank">Lawasz</a> ,
+                    <a class="git2" href="https://github.com/Azfiel" target="_blank">Azfiel</a>,
+                    <a class="git2" href="https://github.com/michlinek1" target="_blank">Michlinek</a>
+                </h1>
 
             </div>
         
         </footer>
+
+
+
+</script>
     </body>
 </html>

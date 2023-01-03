@@ -1,3 +1,4 @@
+/*
 *{
 
     margin: 0;
@@ -7,6 +8,7 @@
 body{
 
     background-color: lightgrey;
+
 
 }
 
@@ -25,7 +27,7 @@ button.mat {
 }
 
 button.mat:hover{
-    background-color: #00915c!important;;
+    background-color: #00915c!important;
 }
 
 footer, header{
@@ -117,7 +119,106 @@ a.git2:hover{
     background-color: #00915c!important;;
 }
 
+*/
+*{
+
+    margin: 0;
+
+}
+
+body{
+
+    font-family: sans-serif;
+    background-color: lightgrey;
+
+}
+
+a{
+
+    color: green;
+
+}
+
+button.mat { 
+
+    margin-left: 6px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color:green;
+    border-radius:5px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding:6px 18px;
+
+}
+
+button.mat:hover{
+
+    background-color: #00915c;
+
+}
+
+footer{
+    
+    background-color: gray;
+    width: auto;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    font-family: Arial;
+    text-align: right;
+    border: 3px solid black;
+    height: 4vh;
+
+}
+
+footer h1 {
+
+    margin-right: 30px;
+
+}
+header{
+
+    background-color: gray;
+    width: auto;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    font-family: Arial;
+    text-align: center;
+    border: 3px solid black;
+    height: 4vh;
+
+}
+canvas{
+    border: 1px dotted black;
+    margin: 1cm;
+}
 
 
+.mid{
+    height: 83vh;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
 
+}
 
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+      font-size: 12px;
+    }
+    footer {
+      font-size: 11px;
+      text-align: center;
+    }
+    #myCanvas{
+        width: 325px;
+    }
+}
+  
+  
